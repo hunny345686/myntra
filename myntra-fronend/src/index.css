@@ -1,3 +1,73 @@
 @tailwind base;
 @tailwind components;
-@tailwind utilities
+@tailwind utilities;
+
+
+:root {
+  --TextBoxBG: #f5f5f6;
+  --naviHover: #ee5f73;
+  --subNaviBG: rgb(245 245 246);
+
+}
+
+
+/* Navigation Css  */
+.navigationSearch {
+  background: var(--TextBoxBG);
+}
+
+.navigationSearch input {
+  min-width: 300px;
+  background: inherit;
+}
+
+.navigation .uppercase li {
+  transition: all .3s ease-in-out;
+}
+
+.navigation .uppercase li:hover {
+  border-bottom: 3px solid var(--naviHover);
+  ;
+}
+
+.navigation .uppercase li:hover .sub-nav {
+  visibility: visible;
+}
+
+.sub-nav h2 {
+  color: var(--naviHover);
+  padding-bottom: 12px;
+}
+
+.sub-nav ul li {
+  font-size: 14px;
+  opacity: .7;
+  padding-bottom: 8px;
+}
+
+.sub-nav {
+  visibility: hidden;
+}
+
+.sub-nav ul li:hover {
+  opacity: 1;
+  font-weight: 700;
+  border-bottom: none !important;
+}
+
+.sub-nav div:nth-child(even) {
+  background: var(--subNaviBG);
+}
+
+.noOfItem {
+  top: -9px;
+  width: 24px;
+  height: 24px;
+  background: var(--naviHover);
+  color: #fff;
+  border-radius: 50%;
+  right: -12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
