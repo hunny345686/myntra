@@ -5,14 +5,14 @@ import { FaUser, FaShoppingBag, FaHeart, FaSearch } from "react-icons/fa";
 
 function Navigation() {
   return (
-    <div className="shadow-md navigation">
+    <div className="shadow-md navigation fixed top-0 left-0 right-0">
       <nav className="container mx-auto relative">
         <div className='flex items-center justify-between'>
           <a href="">
             <img className="h-15 w-20 object-cover" src="/assets/navigation-img/logo-myntra.png" alt="logo-myntra" />
           </a>
           <div>
-            <ul className='flex items-center gap-2 text-xl uppercase font-semibold'>
+            <ul className='flex items-center text-m uppercase font-semibold'>
               <li className="p-6"><a href="">Man</a>
                 <div className="absolute top-full left-0 right-0 bg-slate-50 p-6 sub-nav flex gap-10">
                   <div className="p-4">
@@ -143,7 +143,7 @@ function Navigation() {
             <FaSearch />
             <input className="outline-none" type="text" placeholder="Search for products, brands and more..." />
           </div>
-          <div className="flex items-center gap-6 text-xl">
+          <div className="flex items-center gap-6">
             <div className="flex items-center justify-center flex-col gap-2 cursor-pointer">
               <FaUser />
               <span>Profile</span>

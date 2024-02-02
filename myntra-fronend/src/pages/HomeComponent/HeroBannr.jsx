@@ -3,7 +3,7 @@ function HeroBannr() {
   return (
 
     <>
-      <div className="flex">
+      <div className="flex mt-20">
         <a href="">
           <img src="/assets/home-img/banner-1.jpg" alt="banner-1" />
         </a>

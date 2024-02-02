@@ -7,11 +7,16 @@
   --TextBoxBG: #f5f5f6;
   --naviHover: #ee5f73;
   --subNaviBG: rgb(245 245 246);
+  --white: #fff;
 
 }
 
 
 /* Navigation Css  */
+.navigation {
+  background: var(--white);
+}
+
 .navigationSearch {
   background: var(--TextBoxBG);
 }
@@ -22,7 +27,7 @@
 }
 
 .navigation .uppercase li {
-  transition: all .3s ease-in-out;
+  transition: all .1s ease-in-out;
 }
 
 .navigation .uppercase li:hover {
