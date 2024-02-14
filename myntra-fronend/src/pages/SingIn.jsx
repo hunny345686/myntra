@@ -1,7 +1,7 @@
 
 function SingIn() {
   return (
-    <div className="flex min-h-full flex-1 flex-col justify-center px-6 py-12 lg:px-8 mt-20 sing-in">
+    <div className="flex h-lvh flex-1 flex-col justify-center px-4 py-12 lg:px-4 mt-20 sing-in">
       <div className="sm:mx-auto sm:w-full sm:max-w-sm sing-in-box pt-5">
         <img
           className="mx-auto h-10 w-auto"

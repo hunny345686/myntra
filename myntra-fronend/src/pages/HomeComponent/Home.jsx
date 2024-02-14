@@ -1,4 +1,4 @@
-import HeroBannr from "./HomeComponent/HeroBannr"
+import HeroBannr from "./HeroBannr"
 
 function Home() {
   return (

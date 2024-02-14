@@ -25,7 +25,7 @@ function HeroBannr() {
           <img src="/assets/home-img/m-img-4.webp" alt="banner-1" />
         </a>
         <a href="">
-          <img src="/assets/home-img/m-img-5.webp" alt="banner-1" />
+          <img src="/assets/home-img/m-img-1.webp" alt="banner-1" />
         </a>
         <a href="">
           <img src="/assets/home-img/m-img-1.webp" alt="banner-1" />

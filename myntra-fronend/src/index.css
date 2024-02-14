@@ -3,14 +3,21 @@
 @tailwind utilities;
 
 
+
 :root {
   --TextBoxBG: #f5f5f6;
   --naviHover: #ee5f73;
   --subNaviBG: rgb(245 245 246);
   --white: #fff;
   --signInBg: #fdefea;
+  --footerText: #696b79;
+  --starColor: #72bfbc;
+  --DarkText: #282c3f;
 }
 
+html {
+  font-family: "Assistant", sans-serif;
+}
 
 /* Navigation Css  */
 .navigation {
@@ -28,6 +35,7 @@
 
 .navigation .uppercase li {
   transition: all .1s ease-in-out;
+  cursor: pointer;
 }
 
 .navigation .uppercase li:hover {
@@ -39,7 +47,7 @@
   visibility: visible;
 }
 
-.sub-nav h2 {
+.sub-nav .inline-block {
   color: var(--naviHover);
   padding-bottom: 12px;
 }
@@ -65,7 +73,7 @@
 }
 
 .noOfItem {
-  top: -9px;
+  top: 0;
   width: 24px;
   height: 24px;
   background: var(--naviHover);
@@ -85,4 +93,85 @@
 
 .sing-in-box {
   background: var(--white);
+}
+
+/* footer Css */
+
+.footer h2 {
+  font-weight: 600;
+  padding-bottom: 24px;
+}
+
+.footer ul {
+  font-size: 14px;
+  color: var(--footerText);
+}
+
+.footer li {
+  padding-bottom: 8px;
+}
+
+.socialMediaIcon svg {
+  font-size: 32px;
+  color: var(--footerText);
+}
+
+/* Product */
+.starIcon {
+  color: var(--starColor);
+  ;
+}
+
+.productDetail h3 {
+  color: var(--DarkText);
+  font-size: 18px;
+}
+
+.productDetail p {
+  color: #535766;
+}
+
+.off {
+  color: #ff905a;
+}
+
+.productDetail span {
+  font-size: 14px;
+}
+
+.productGroup {
+  cursor: pointer;
+}
+
+.pruductWishlist {
+  top: -34px;
+  transition: all .2s ease-in-out;
+  height: 80px;
+}
+
+.pruductWishlist button {
+  border: 1px solid #8080803b;
+  padding: 8px 32px;
+}
+
+
+.image-gallery-content,
+.image-gallery,
+.image-gallery-slide-wrapper,
+.image-gallery-swipe,
+.image-gallery-slides,
+.image-gallery-slide,
+.image-gallery-content .image-gallery-slide .image-gallery-image {
+  height: 100%;
+  object-fit: cover;
+}
+
+.productGroup .image-gallery-bullets .image-gallery-bullet {
+  padding: 3px;
+  background-color: gray;
+  box-shadow: none
+}
+
+.productGroup .image-gallery-bullets .image-gallery-bullet.active {
+  background: #ff3f6c;
 }
