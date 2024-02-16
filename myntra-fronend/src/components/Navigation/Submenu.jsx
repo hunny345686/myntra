@@ -4,9 +4,9 @@ function SubMenu({ submenu }) {
   return (
     submenu.map((item) => {
       return (
-        <div>
-          <Link className="px-4 py-4 inline-block">{item.name}</Link>
-          <SubmenuItem submenu={item.submenu} />
+        <div key={item.link}>
+          <Link to={item.link} className="px-4 py-4 inline-block">{item.subCategoryName}</Link>
+          <SubmenuItem submenu={item.subCategory} />
         </div>
 
       )

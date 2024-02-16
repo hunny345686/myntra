@@ -1,3 +1,9 @@
+
+
+// "brand": "Apple",
+//   "color": "red",
+// "size": "s",
+// 
 export const productData =
 {
   "products": [
@@ -9,8 +15,11 @@ export const productData =
       "discountPercentage": 12.96,
       "rating": 4.69,
       "stock": 94,
-      "brand": "Apple",
-      "category": "smartphones",
+      "brand": "Alena",
+      "category": [
+        "topwear",
+        "jecket"
+      ],
       "thumbnail": "https://cdn.dummyjson.com/product-images/1/thumbnail.jpg",
       "images": [
         "https://cdn.dummyjson.com/product-images/1/1.jpg",
@@ -18,7 +27,9 @@ export const productData =
         "https://cdn.dummyjson.com/product-images/1/3.jpg",
         "https://cdn.dummyjson.com/product-images/1/4.jpg",
         "https://cdn.dummyjson.com/product-images/1/thumbnail.jpg"
-      ]
+      ],
+      "color": "red",
+      "size": "s"
     },
     {
       "id": 2,
@@ -28,15 +39,20 @@ export const productData =
       "discountPercentage": 17.94,
       "rating": 4.44,
       "stock": 34,
-      "brand": "Apple",
-      "category": "smartphones",
+      "brand": "Alena",
+      "category": [
+        "topwear",
+        "jecket"
+      ],
       "thumbnail": "https://cdn.dummyjson.com/product-images/2/thumbnail.jpg",
       "images": [
         "https://cdn.dummyjson.com/product-images/2/1.jpg",
         "https://cdn.dummyjson.com/product-images/2/2.jpg",
         "https://cdn.dummyjson.com/product-images/2/3.jpg",
         "https://cdn.dummyjson.com/product-images/2/thumbnail.jpg"
-      ]
+      ],
+      "color": "red",
+      "size": "s"
     },
     {
       "id": 3,
@@ -46,12 +62,17 @@ export const productData =
       "discountPercentage": 15.46,
       "rating": 4.09,
       "stock": 36,
-      "brand": "Samsung",
-      "category": "smartphones",
+      "brand": "Alena",
+      "category": [
+        "topwear",
+        "jecket"
+      ],
       "thumbnail": "https://cdn.dummyjson.com/product-images/3/thumbnail.jpg",
       "images": [
         "https://cdn.dummyjson.com/product-images/3/1.jpg"
-      ]
+      ],
+      "color": "red",
+      "size": "s"
     },
     {
       "id": 4,
@@ -61,8 +82,11 @@ export const productData =
       "discountPercentage": 17.91,
       "rating": 4.3,
       "stock": 123,
-      "brand": "OPPO",
-      "category": "smartphones",
+      "brand": "KALINI",
+      "category": [
+        "topwear",
+        "t-shiert"
+      ],
       "thumbnail": "https://cdn.dummyjson.com/product-images/4/thumbnail.jpg",
       "images": [
         "https://cdn.dummyjson.com/product-images/4/1.jpg",
@@ -70,7 +94,9 @@ export const productData =
         "https://cdn.dummyjson.com/product-images/4/3.jpg",
         "https://cdn.dummyjson.com/product-images/4/4.jpg",
         "https://cdn.dummyjson.com/product-images/4/thumbnail.jpg"
-      ]
+      ],
+      "color": "Green",
+      "size": "M"
     },
     {
       "id": 5,
@@ -80,14 +106,19 @@ export const productData =
       "discountPercentage": 10.58,
       "rating": 4.09,
       "stock": 32,
-      "brand": "Huawei",
-      "category": "smartphones",
+      "brand": "KALINI",
+      "category": [
+        "topwear",
+        "t-shiert"
+      ],
       "thumbnail": "https://cdn.dummyjson.com/product-images/5/thumbnail.jpg",
       "images": [
         "https://cdn.dummyjson.com/product-images/5/1.jpg",
         "https://cdn.dummyjson.com/product-images/5/2.jpg",
         "https://cdn.dummyjson.com/product-images/5/3.jpg"
-      ]
+      ],
+      "color": "Green",
+      "size": "M"
     },
     {
       "id": 6,
@@ -97,15 +128,20 @@ export const productData =
       "discountPercentage": 11.02,
       "rating": 4.57,
       "stock": 83,
-      "brand": "Apple",
-      "category": "laptops",
+      "brand": "KALINI",
+      "category": [
+        "bottomwear",
+        "jeans"
+      ],
       "thumbnail": "https://cdn.dummyjson.com/product-images/6/thumbnail.png",
       "images": [
         "https://cdn.dummyjson.com/product-images/6/1.png",
         "https://cdn.dummyjson.com/product-images/6/2.jpg",
         "https://cdn.dummyjson.com/product-images/6/3.png",
         "https://cdn.dummyjson.com/product-images/6/4.jpg"
-      ]
+      ],
+      "color": "Green",
+      "size": "M"
     },
     {
       "id": 7,
@@ -115,15 +151,20 @@ export const productData =
       "discountPercentage": 4.15,
       "rating": 4.25,
       "stock": 50,
-      "brand": "Samsung",
-      "category": "laptops",
+      "brand": "Biba",
+      "category": [
+        "bottomwear",
+        "jeans"
+      ],
       "thumbnail": "https://cdn.dummyjson.com/product-images/7/thumbnail.jpg",
       "images": [
         "https://cdn.dummyjson.com/product-images/7/1.jpg",
         "https://cdn.dummyjson.com/product-images/7/2.jpg",
         "https://cdn.dummyjson.com/product-images/7/3.jpg",
         "https://cdn.dummyjson.com/product-images/7/thumbnail.jpg"
-      ]
+      ],
+      "color": "Yellow",
+      "size": "X"
     },
     {
       "id": 8,
@@ -133,8 +174,11 @@ export const productData =
       "discountPercentage": 10.23,
       "rating": 4.43,
       "stock": 68,
-      "brand": "Microsoft Surface",
-      "category": "laptops",
+      "brand": "Biba",
+      "category": [
+        "bottomwear",
+        "jeans"
+      ],
       "thumbnail": "https://cdn.dummyjson.com/product-images/8/thumbnail.jpg",
       "images": [
         "https://cdn.dummyjson.com/product-images/8/1.jpg",
@@ -142,7 +186,9 @@ export const productData =
         "https://cdn.dummyjson.com/product-images/8/3.jpg",
         "https://cdn.dummyjson.com/product-images/8/4.jpg",
         "https://cdn.dummyjson.com/product-images/8/thumbnail.jpg"
-      ]
+      ],
+      "color": "Yello",
+      "size": "X"
     },
     {
       "id": 9,
@@ -152,8 +198,11 @@ export const productData =
       "discountPercentage": 11.83,
       "rating": 4.54,
       "stock": 96,
-      "brand": "Infinix",
-      "category": "laptops",
+      "brand": "Biba",
+      "category": [
+        "bottomwear",
+        "shorts"
+      ],
       "thumbnail": "https://cdn.dummyjson.com/product-images/9/thumbnail.jpg",
       "images": [
         "https://cdn.dummyjson.com/product-images/9/1.jpg",
@@ -161,7 +210,9 @@ export const productData =
         "https://cdn.dummyjson.com/product-images/9/3.png",
         "https://cdn.dummyjson.com/product-images/9/4.jpg",
         "https://cdn.dummyjson.com/product-images/9/thumbnail.jpg"
-      ]
+      ],
+      "color": "Yellow",
+      "size": "X"
     },
     {
       "id": 10,
@@ -171,15 +222,20 @@ export const productData =
       "discountPercentage": 6.18,
       "rating": 4.43,
       "stock": 89,
-      "brand": "HP Pavilion",
-      "category": "laptops",
+      "brand": "Varanga",
+      "category": [
+        "bottomwear",
+        "shorts"
+      ],
       "thumbnail": "https://cdn.dummyjson.com/product-images/10/thumbnail.jpeg",
       "images": [
         "https://cdn.dummyjson.com/product-images/10/1.jpg",
         "https://cdn.dummyjson.com/product-images/10/2.jpg",
         "https://cdn.dummyjson.com/product-images/10/3.jpg",
         "https://cdn.dummyjson.com/product-images/10/thumbnail.jpeg"
-      ]
+      ],
+      "color": "Blue",
+      "size": "XL"
     },
     {
       "id": 11,
@@ -189,15 +245,20 @@ export const productData =
       "discountPercentage": 8.4,
       "rating": 4.26,
       "stock": 65,
-      "brand": "Impression of Acqua Di Gio",
-      "category": "fragrances",
+      "brand": "Varanga",
+      "category": [
+        "bottomwear",
+        "shorts"
+      ],
       "thumbnail": "https://cdn.dummyjson.com/product-images/11/thumbnail.jpg",
       "images": [
         "https://cdn.dummyjson.com/product-images/11/1.jpg",
         "https://cdn.dummyjson.com/product-images/11/2.jpg",
         "https://cdn.dummyjson.com/product-images/11/3.jpg",
         "https://cdn.dummyjson.com/product-images/11/thumbnail.jpg"
-      ]
+      ],
+      "color": "Blue",
+      "size": "XL"
     },
     {
       "id": 12,
@@ -207,8 +268,11 @@ export const productData =
       "discountPercentage": 15.66,
       "rating": 4,
       "stock": 52,
-      "brand": "Royal_Mirage",
-      "category": "fragrances",
+      "brand": "Anouk",
+      "category": [
+        "bottomwear",
+        "shorts"
+      ],
       "thumbnail": "https://cdn.dummyjson.com/product-images/12/thumbnail.jpg",
       "images": [
         "https://cdn.dummyjson.com/product-images/12/1.jpg",
@@ -216,7 +280,9 @@ export const productData =
         "https://cdn.dummyjson.com/product-images/12/3.png",
         "https://cdn.dummyjson.com/product-images/12/4.jpg",
         "https://cdn.dummyjson.com/product-images/12/thumbnail.jpg"
-      ]
+      ],
+      "color": "Blue",
+      "size": "XL"
     },
     {
       "id": 13,
@@ -226,8 +292,11 @@ export const productData =
       "discountPercentage": 8.14,
       "rating": 4.59,
       "stock": 61,
-      "brand": "Fog Scent Xpressio",
-      "category": "fragrances",
+      "brand": "Apple",
+      "category": [
+        "western-wear",
+        "dresses"
+      ],
       "thumbnail": "https://cdn.dummyjson.com/product-images/13/thumbnail.webp",
       "images": [
         "https://cdn.dummyjson.com/product-images/13/1.jpg",
@@ -235,7 +304,9 @@ export const productData =
         "https://cdn.dummyjson.com/product-images/13/3.jpg",
         "https://cdn.dummyjson.com/product-images/13/4.jpg",
         "https://cdn.dummyjson.com/product-images/13/thumbnail.webp"
-      ]
+      ],
+      "color": "White",
+      "size": "XL"
     },
     {
       "id": 14,
@@ -245,15 +316,20 @@ export const productData =
       "discountPercentage": 15.6,
       "rating": 4.21,
       "stock": 114,
-      "brand": "Al Munakh",
-      "category": "fragrances",
+      "brand": "Apple",
+      "category": [
+        "western-wear",
+        "dresses"
+      ],
       "thumbnail": "https://cdn.dummyjson.com/product-images/14/thumbnail.jpg",
       "images": [
         "https://cdn.dummyjson.com/product-images/14/1.jpg",
         "https://cdn.dummyjson.com/product-images/14/2.jpg",
         "https://cdn.dummyjson.com/product-images/14/3.jpg",
         "https://cdn.dummyjson.com/product-images/14/thumbnail.jpg"
-      ]
+      ],
+      "color": "White",
+      "size": "XL"
     },
     {
       "id": 15,
@@ -263,8 +339,11 @@ export const productData =
       "discountPercentage": 10.99,
       "rating": 4.7,
       "stock": 105,
-      "brand": "Lord - Al-Rehab",
-      "category": "fragrances",
+      "brand": "HIGHLANDER",
+      "category": [
+        "western-wear",
+        "dresses"
+      ],
       "thumbnail": "https://cdn.dummyjson.com/product-images/15/thumbnail.jpg",
       "images": [
         "https://cdn.dummyjson.com/product-images/15/1.jpg",
@@ -272,7 +351,9 @@ export const productData =
         "https://cdn.dummyjson.com/product-images/15/3.jpg",
         "https://cdn.dummyjson.com/product-images/15/4.jpg",
         "https://cdn.dummyjson.com/product-images/15/thumbnail.jpg"
-      ]
+      ],
+      "color": "Pink",
+      "size": "XXl"
     },
     {
       "id": 16,
@@ -282,8 +363,11 @@ export const productData =
       "discountPercentage": 13.31,
       "rating": 4.83,
       "stock": 110,
-      "brand": "L'Oreal Paris",
-      "category": "skincare",
+      "brand": "HIGHLANDER",
+      "category": [
+        "western-wear",
+        "dresses"
+      ],
       "thumbnail": "https://cdn.dummyjson.com/product-images/16/thumbnail.jpg",
       "images": [
         "https://cdn.dummyjson.com/product-images/16/1.png",
@@ -291,7 +375,9 @@ export const productData =
         "https://cdn.dummyjson.com/product-images/16/3.jpg",
         "https://cdn.dummyjson.com/product-images/16/4.jpg",
         "https://cdn.dummyjson.com/product-images/16/thumbnail.jpg"
-      ]
+      ],
+      "color": "pink",
+      "size": "xxl"
     },
     {
       "id": 17,
@@ -301,15 +387,20 @@ export const productData =
       "discountPercentage": 4.09,
       "rating": 4.52,
       "stock": 78,
-      "brand": "Hemani Tea",
-      "category": "skincare",
+      "brand": "HIGHLANDER",
+      "category": [
+        "western-wear",
+        "dresses"
+      ],
       "thumbnail": "https://cdn.dummyjson.com/product-images/17/thumbnail.jpg",
       "images": [
         "https://cdn.dummyjson.com/product-images/17/1.jpg",
         "https://cdn.dummyjson.com/product-images/17/2.jpg",
         "https://cdn.dummyjson.com/product-images/17/3.jpg",
         "https://cdn.dummyjson.com/product-images/17/thumbnail.jpg"
-      ]
+      ],
+      "color": "pink",
+      "size": "M"
     },
     {
       "id": 18,
@@ -319,8 +410,11 @@ export const productData =
       "discountPercentage": 13.1,
       "rating": 4.56,
       "stock": 88,
-      "brand": "Dermive",
-      "category": "skincare",
+      "brand": "HIGHLANDER",
+      "category": [
+        "western-wear",
+        "tops"
+      ],
       "thumbnail": "https://cdn.dummyjson.com/product-images/18/thumbnail.jpg",
       "images": [
         "https://cdn.dummyjson.com/product-images/18/1.jpg",
@@ -328,7 +422,9 @@ export const productData =
         "https://cdn.dummyjson.com/product-images/18/3.jpg",
         "https://cdn.dummyjson.com/product-images/18/4.jpg",
         "https://cdn.dummyjson.com/product-images/18/thumbnail.jpg"
-      ]
+      ],
+      "color": "red",
+      "size": "s"
     },
     {
       "id": 19,
@@ -338,15 +434,20 @@ export const productData =
       "discountPercentage": 10.68,
       "rating": 4.42,
       "stock": 54,
-      "brand": "ROREC White Rice",
-      "category": "skincare",
+      "brand": "Allen Solly",
+      "category": [
+        "western-wear",
+        "tops"
+      ],
       "thumbnail": "https://cdn.dummyjson.com/product-images/19/thumbnail.jpg",
       "images": [
         "https://cdn.dummyjson.com/product-images/19/1.jpg",
         "https://cdn.dummyjson.com/product-images/19/2.jpg",
         "https://cdn.dummyjson.com/product-images/19/3.png",
         "https://cdn.dummyjson.com/product-images/19/thumbnail.jpg"
-      ]
+      ],
+      "color": "black",
+      "size": "x"
     },
     {
       "id": 20,
@@ -356,8 +457,11 @@ export const productData =
       "discountPercentage": 16.99,
       "rating": 4.06,
       "stock": 140,
-      "brand": "Fair & Clear",
-      "category": "skincare",
+      "brand": "Allen Solly",
+      "category": [
+        "western-wear",
+        "tops"
+      ],
       "thumbnail": "https://cdn.dummyjson.com/product-images/20/thumbnail.jpg",
       "images": [
         "https://cdn.dummyjson.com/product-images/20/1.jpg",
@@ -365,7 +469,9 @@ export const productData =
         "https://cdn.dummyjson.com/product-images/20/3.jpg",
         "https://cdn.dummyjson.com/product-images/20/4.jpg",
         "https://cdn.dummyjson.com/product-images/20/thumbnail.jpg"
-      ]
+      ],
+      "color": "Yellow",
+      "size": "M"
     },
     {
       "id": 21,
@@ -375,14 +481,19 @@ export const productData =
       "discountPercentage": 4.81,
       "rating": 4.44,
       "stock": 133,
-      "brand": "Saaf & Khaas",
-      "category": "groceries",
+      "brand": "Allen Solly",
+      "category": [
+        "western-wear",
+        "tops"
+      ],
       "thumbnail": "https://cdn.dummyjson.com/product-images/21/thumbnail.png",
       "images": [
         "https://cdn.dummyjson.com/product-images/21/1.png",
         "https://cdn.dummyjson.com/product-images/21/2.jpg",
         "https://cdn.dummyjson.com/product-images/21/3.jpg"
-      ]
+      ],
+      "color": "green",
+      "size": "XL"
     },
     {
       "id": 22,
@@ -392,14 +503,19 @@ export const productData =
       "discountPercentage": 15.58,
       "rating": 4.57,
       "stock": 146,
-      "brand": "Bake Parlor Big",
-      "category": "groceries",
+      "brand": "Arrow",
+      "category": [
+        "footwear",
+        "heels"
+      ],
       "thumbnail": "https://cdn.dummyjson.com/product-images/22/thumbnail.jpg",
       "images": [
         "https://cdn.dummyjson.com/product-images/22/1.jpg",
         "https://cdn.dummyjson.com/product-images/22/2.jpg",
         "https://cdn.dummyjson.com/product-images/22/3.jpg"
-      ]
+      ],
+      "color": "red",
+      "size": "s"
     },
     {
       "id": 23,
@@ -409,8 +525,11 @@ export const productData =
       "discountPercentage": 8.04,
       "rating": 4.85,
       "stock": 26,
-      "brand": "Baking Food Items",
-      "category": "groceries",
+      "brand": "Arrow",
+      "category": [
+        "footwear",
+        "heels"
+      ],
       "thumbnail": "https://cdn.dummyjson.com/product-images/23/thumbnail.jpg",
       "images": [
         "https://cdn.dummyjson.com/product-images/23/1.jpg",
@@ -418,7 +537,9 @@ export const productData =
         "https://cdn.dummyjson.com/product-images/23/3.jpg",
         "https://cdn.dummyjson.com/product-images/23/4.jpg",
         "https://cdn.dummyjson.com/product-images/23/thumbnail.jpg"
-      ]
+      ],
+      "color": "yellow",
+      "size": "xl"
     },
     {
       "id": 24,
@@ -428,8 +549,11 @@ export const productData =
       "discountPercentage": 16.8,
       "rating": 4.94,
       "stock": 113,
-      "brand": "fauji",
-      "category": "groceries",
+      "brand": "Arrow",
+      "category": [
+        "footwear",
+        "heels"
+      ],
       "thumbnail": "https://cdn.dummyjson.com/product-images/24/thumbnail.jpg",
       "images": [
         "https://cdn.dummyjson.com/product-images/24/1.jpg",
@@ -437,7 +561,9 @@ export const productData =
         "https://cdn.dummyjson.com/product-images/24/3.jpg",
         "https://cdn.dummyjson.com/product-images/24/4.jpg",
         "https://cdn.dummyjson.com/product-images/24/thumbnail.jpg"
-      ]
+      ],
+      "color": "green",
+      "size": "xxl"
     },
     {
       "id": 25,
@@ -447,8 +573,11 @@ export const productData =
       "discountPercentage": 13.58,
       "rating": 4.87,
       "stock": 47,
-      "brand": "Dry Rose",
-      "category": "groceries",
+      "brand": "Arrow",
+      "category": [
+        "footwear",
+        "heels"
+      ],
       "thumbnail": "https://cdn.dummyjson.com/product-images/25/thumbnail.jpg",
       "images": [
         "https://cdn.dummyjson.com/product-images/25/1.png",
@@ -456,7 +585,9 @@ export const productData =
         "https://cdn.dummyjson.com/product-images/25/3.png",
         "https://cdn.dummyjson.com/product-images/25/4.jpg",
         "https://cdn.dummyjson.com/product-images/25/thumbnail.jpg"
-      ]
+      ],
+      "color": "white",
+      "size": "xl"
     },
     {
       "id": 26,
@@ -466,8 +597,11 @@ export const productData =
       "discountPercentage": 17.86,
       "rating": 4.08,
       "stock": 131,
-      "brand": "Boho Decor",
-      "category": "home-decoration",
+      "brand": "Arrow",
+      "category": [
+        "footwear",
+        "heels"
+      ],
       "thumbnail": "https://cdn.dummyjson.com/product-images/26/thumbnail.jpg",
       "images": [
         "https://cdn.dummyjson.com/product-images/26/1.jpg",
@@ -476,7 +610,9 @@ export const productData =
         "https://cdn.dummyjson.com/product-images/26/4.jpg",
         "https://cdn.dummyjson.com/product-images/26/5.jpg",
         "https://cdn.dummyjson.com/product-images/26/thumbnail.jpg"
-      ]
+      ],
+      "color": "black",
+      "size": "s"
     },
     {
       "id": 27,
@@ -486,8 +622,11 @@ export const productData =
       "discountPercentage": 15.58,
       "rating": 4.41,
       "stock": 17,
-      "brand": "Flying Wooden",
-      "category": "home-decoration",
+      "brand": "Arrow",
+      "category": [
+        "footwear",
+        "boots"
+      ],
       "thumbnail": "https://cdn.dummyjson.com/product-images/27/thumbnail.webp",
       "images": [
         "https://cdn.dummyjson.com/product-images/27/1.jpg",
@@ -495,7 +634,9 @@ export const productData =
         "https://cdn.dummyjson.com/product-images/27/3.jpg",
         "https://cdn.dummyjson.com/product-images/27/4.jpg",
         "https://cdn.dummyjson.com/product-images/27/thumbnail.webp"
-      ]
+      ],
+      "color": "red",
+      "size": "s"
     },
     {
       "id": 28,
@@ -505,8 +646,11 @@ export const productData =
       "discountPercentage": 16.49,
       "rating": 4.82,
       "stock": 54,
-      "brand": "LED Lights",
-      "category": "home-decoration",
+      "brand": "Aldeno",
+      "category": [
+        "footwear",
+        "boots"
+      ],
       "thumbnail": "https://cdn.dummyjson.com/product-images/28/thumbnail.jpg",
       "images": [
         "https://cdn.dummyjson.com/product-images/28/1.jpg",
@@ -514,7 +658,9 @@ export const productData =
         "https://cdn.dummyjson.com/product-images/28/3.png",
         "https://cdn.dummyjson.com/product-images/28/4.jpg",
         "https://cdn.dummyjson.com/product-images/28/thumbnail.jpg"
-      ]
+      ],
+      "color": "pink",
+      "size": "s"
     },
     {
       "id": 29,
@@ -524,8 +670,11 @@ export const productData =
       "discountPercentage": 15.34,
       "rating": 4.44,
       "stock": 7,
-      "brand": "luxury palace",
-      "category": "home-decoration",
+      "brand": "Aldeno",
+      "category": [
+        "footwear",
+        "boots"
+      ],
       "thumbnail": "https://cdn.dummyjson.com/product-images/29/thumbnail.webp",
       "images": [
         "https://cdn.dummyjson.com/product-images/29/1.jpg",
@@ -533,7 +682,9 @@ export const productData =
         "https://cdn.dummyjson.com/product-images/29/3.webp",
         "https://cdn.dummyjson.com/product-images/29/4.webp",
         "https://cdn.dummyjson.com/product-images/29/thumbnail.webp"
-      ]
+      ],
+      "color": "pink",
+      "size": "s"
     },
     {
       "id": 30,
@@ -543,18 +694,505 @@ export const productData =
       "discountPercentage": 2.92,
       "rating": 4.92,
       "stock": 54,
-      "brand": "Golden",
-      "category": "home-decoration",
+      "brand": "Aldeno",
+      "category": [
+        "footwear",
+        "boots"
+      ],
       "thumbnail": "https://cdn.dummyjson.com/product-images/30/thumbnail.jpg",
       "images": [
         "https://cdn.dummyjson.com/product-images/30/1.jpg",
         "https://cdn.dummyjson.com/product-images/30/2.jpg",
         "https://cdn.dummyjson.com/product-images/30/3.jpg",
         "https://cdn.dummyjson.com/product-images/30/thumbnail.jpg"
-      ]
+      ],
+      "color": "red",
+      "size": "s"
     }
-  ],
-  "total": 100,
-  "skip": 0,
-  "limit": 30
-} 
+  ]
+}
+
+export const categories = [
+  {
+    categoryName: "mans",
+    link: "/",
+    subCategory: [
+      {
+        subCategoryName: "Topwear",
+        link: "products/topwear",
+        subCategory: [
+          {
+            cateName: "t-shiert",
+            link: "products/t-shiert",
+            filters: [
+              {
+                filterName: "CATEGORIES",
+                data: [
+                  {
+                    id: 1,
+                    name: "Lounge Tshirts",
+                  },
+                  {
+                    id: 2,
+                    name: "Tshirts",
+                  }
+                ]
+              },
+              {
+                id: 2,
+                filterName: "BRAND",
+                data: [
+                  {
+                    id: 1,
+                    name: "Roadster",
+                  },
+                  {
+                    id: 2,
+                    name: "Friskers",
+                  }
+                ]
+              },
+              {
+                filterName: "SIZE",
+                data: [
+                  {
+                    name: "S",
+                  },
+                  {
+                    name: "M",
+                  }
+                ]
+              },
+              {
+                filterName: "Color",
+                data: [
+                  {
+                    name: "red",
+                  },
+                  {
+                    name: "yellow",
+                  }
+                ]
+              },
+            ]
+          },
+          {
+            cateName: "Jecket",
+            link: "products/jecket",
+            filters: [
+              {
+                filterName: "CATEGORIES",
+                data: [
+                  {
+                    id: 1,
+                    name: "Lounge Tshirts",
+                  },
+                  {
+                    id: 2,
+                    name: "Tshirts",
+                  }
+                ]
+              },
+              {
+                id: 2,
+                filterName: "BRAND",
+                data: [
+                  {
+                    id: 1,
+                    name: "Roadster",
+                  },
+                  {
+                    id: 2,
+                    name: "Friskers",
+                  }
+                ]
+              },
+              {
+                filterName: "SIZE",
+                data: [
+                  {
+                    name: "S",
+                  },
+                  {
+                    name: "M",
+                  }
+                ]
+              },
+              {
+                filterName: "Color",
+                data: [
+                  {
+                    name: "red",
+                  },
+                  {
+                    name: "yellow",
+                  }
+                ]
+              },
+            ]
+          },
+        ]
+      },
+      {
+        subCategoryName: "Bottomwear",
+        link: "products/bottomwear",
+        subCategory: [
+          {
+            cateName: "Jeans",
+            link: "products/jeans",
+            filters: [
+              {
+                filterName: "CATEGORIES",
+                data: [
+                  {
+                    id: 1,
+                    name: "Lounge Tshirts",
+                  },
+                  {
+                    id: 2,
+                    name: "Tshirts",
+                  }
+                ]
+              },
+              {
+                id: 2,
+                filterName: "BRAND",
+                data: [
+                  {
+                    id: 1,
+                    name: "Roadster",
+                  },
+                  {
+                    id: 2,
+                    name: "Friskers",
+                  }
+                ]
+              },
+              {
+                filterName: "SIZE",
+                data: [
+                  {
+                    name: "S",
+                  },
+                  {
+                    name: "M",
+                  }
+                ]
+              },
+              {
+                filterName: "Color",
+                data: [
+                  {
+                    name: "red",
+                  },
+                  {
+                    name: "yellow",
+                  }
+                ]
+              },
+            ]
+          },
+          {
+            cateName: "Shorts",
+            link: "products/shorts",
+            filters: [
+              {
+                filterName: "CATEGORIES",
+                data: [
+                  {
+                    id: 1,
+                    name: "Lounge Tshirts",
+                  },
+                  {
+                    id: 2,
+                    name: "Tshirts",
+                  }
+                ]
+              },
+              {
+                id: 2,
+                filterName: "BRAND",
+                data: [
+                  {
+                    id: 1,
+                    name: "Roadster",
+                  },
+                  {
+                    id: 2,
+                    name: "Friskers",
+                  }
+                ]
+              },
+              {
+                filterName: "SIZE",
+                data: [
+                  {
+                    name: "S",
+                  },
+                  {
+                    name: "M",
+                  }
+                ]
+              },
+              {
+                filterName: "Color",
+                data: [
+                  {
+                    name: "red",
+                  },
+                  {
+                    name: "yellow",
+                  }
+                ]
+              },
+            ]
+          },
+        ]
+      }
+
+    ]
+  },
+  {
+    categoryName: "women",
+    link: "/",
+    subCategory: [
+      {
+        subCategoryName: "Western Wear",
+        link: "products/western-wear",
+        subCategory: [
+          {
+            cateName: "Dresses",
+            link: "products/dresses",
+            filters: [
+              {
+                filterName: "CATEGORIES",
+                data: [
+                  {
+                    id: 1,
+                    name: "Lounge Tshirts",
+                  },
+                  {
+                    id: 2,
+                    name: "Tshirts",
+                  }
+                ]
+              },
+              {
+                id: 2,
+                filterName: "BRAND",
+                data: [
+                  {
+                    id: 1,
+                    name: "Roadster",
+                  },
+                  {
+                    id: 2,
+                    name: "Friskers",
+                  }
+                ]
+              },
+              {
+                filterName: "SIZE",
+                data: [
+                  {
+                    name: "S",
+                  },
+                  {
+                    name: "M",
+                  }
+                ]
+              },
+              {
+                filterName: "Color",
+                data: [
+                  {
+                    name: "red",
+                  },
+                  {
+                    name: "yellow",
+                  }
+                ]
+              },
+            ]
+          },
+          {
+            cateName: "Tops",
+            link: "products/tops",
+            filters: [
+              {
+                filterName: "CATEGORIES",
+                data: [
+                  {
+                    id: 1,
+                    name: "Lounge Tshirts",
+                  },
+                  {
+                    id: 2,
+                    name: "Tshirts",
+                  }
+                ]
+              },
+              {
+                id: 2,
+                filterName: "BRAND",
+                data: [
+                  {
+                    id: 1,
+                    name: "Roadster",
+                  },
+                  {
+                    id: 2,
+                    name: "Friskers",
+                  }
+                ]
+              },
+              {
+                filterName: "SIZE",
+                data: [
+                  {
+                    name: "S",
+                  },
+                  {
+                    name: "M",
+                  }
+                ]
+              },
+              {
+                filterName: "Color",
+                data: [
+                  {
+                    name: "red",
+                  },
+                  {
+                    name: "yellow",
+                  }
+                ]
+              },
+            ]
+          },
+        ]
+      },
+      {
+        subCategoryName: "Footwear",
+        link: "products/footwear",
+        subCategory: [
+          {
+            cateName: "heels",
+            link: "products/heels",
+            filters: [
+              {
+                filterName: "CATEGORIES",
+                data: [
+                  {
+                    id: 1,
+                    name: "Lounge Tshirts",
+                  },
+                  {
+                    id: 2,
+                    name: "Tshirts",
+                  }
+                ]
+              },
+              {
+                id: 2,
+                filterName: "BRAND",
+                data: [
+                  {
+                    id: 1,
+                    name: "Roadster",
+                  },
+                  {
+                    id: 2,
+                    name: "Friskers",
+                  }
+                ]
+              },
+              {
+                filterName: "SIZE",
+                data: [
+                  {
+                    name: "S",
+                  },
+                  {
+                    name: "M",
+                  }
+                ]
+              },
+              {
+                filterName: "Color",
+                data: [
+                  {
+                    name: "red",
+                  },
+                  {
+                    name: "yellow",
+                  }
+                ]
+              },
+            ]
+          },
+          {
+            cateName: "Boots",
+            link: "products/boots",
+            filters: [
+              {
+                filterName: "CATEGORIES",
+                data: [
+                  {
+                    id: 1,
+                    name: "Lounge Tshirts",
+                  },
+                  {
+                    id: 2,
+                    name: "Tshirts",
+                  }
+                ]
+              },
+              {
+                id: 2,
+                filterName: "BRAND",
+                data: [
+                  {
+                    id: 1,
+                    name: "Roadster",
+                  },
+                  {
+                    id: 2,
+                    name: "Friskers",
+                  }
+                ]
+              },
+              {
+                filterName: "SIZE",
+                data: [
+                  {
+                    name: "S",
+                  },
+                  {
+                    name: "M",
+                  }
+                ]
+              },
+              {
+                filterName: "Color",
+                data: [
+                  {
+                    name: "red",
+                  },
+                  {
+                    name: "yellow",
+                  }
+                ]
+              },
+            ]
+          },
+        ]
+      }
+
+    ]
+  }
+]
+
+
+
+

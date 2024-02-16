@@ -143,15 +143,10 @@ html {
   cursor: pointer;
 }
 
-.pruductWishlist {
-  top: -34px;
-  transition: all .2s ease-in-out;
-  height: 80px;
-}
-
 .pruductWishlist button {
   border: 1px solid #8080803b;
   padding: 8px 32px;
+  width: 95%;
 }
 
 
@@ -174,4 +169,12 @@ html {
 
 .productGroup .image-gallery-bullets .image-gallery-bullet.active {
   background: #ff3f6c;
+}
+
+.productGroup .image-gallery-bullets {
+  bottom: 0;
+  width: 100%;
+  z-index: 999;
+  background: var(--white);
+  padding-top: 4px;
 }

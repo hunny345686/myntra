@@ -6,7 +6,7 @@ function SubmenuItem({ submenu }) {
       {
         submenu.map((item) => {
           return (
-            <li> <Link to="#">{item.name}</Link></li>
+            <li key={item.link}> <Link to={item.link}>{item.cateName}</Link></li>
           )
         }
         )}
