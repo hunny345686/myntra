@@ -14,7 +14,7 @@ function ProductCategory({ category, cateName }) {
           {
             category.map((category) => {
               return (
-                <Category category={category} />
+                <Category key={category} category={category} CateName={cateName} />
               )
             })
           }

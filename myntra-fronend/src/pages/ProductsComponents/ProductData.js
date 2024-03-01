@@ -3,7 +3,14 @@
 // "brand": "Apple",
 //   "color": "red",
 // "size": "s",
-// 
+//
+
+//   {
+//     brand: ["nike", "adidas"],
+//     color: ["red", "yello"],
+//     size: ["M"],
+//   }
+// ]
 export const productData =
 {
   "products": [

@@ -1,9 +1,7 @@
-import React from 'react'
-
 function SingleProduct() {
   return (
     <div className='container mx-auto'>
-      <section className="overflow-hidden bg-white mt-12">
+      <section className="overflow-hidden bg-white mt-20">
         <div className="p-4">
           <div className="flex flex-wrap -mx-4">
             <div className="w-full px-4 md:w-1/2 ">

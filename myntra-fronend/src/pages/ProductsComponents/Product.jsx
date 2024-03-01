@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useState, useRef, useEffect } from "react";
 import { FaAngleDown } from "react-icons/fa";
 import { IoGrid } from "react-icons/io5";
 import ProductList from "./ProductList";
@@ -10,16 +10,31 @@ import ProductCategory from "./ProductCategory";
 function Product() {
   const { pathname } = useLocation()
   const [sortDropdown, setSortDropdown] = useState(false)
-
-  let param = pathname.split("/").at(-1)
+  const sortRef = useRef()
+  let param = pathname.split("/").at(-1);
   const filterData = productData.products.filter((item) =>
     item.category.includes(param))
 
-  let brand = filterData.map((item) => item.brand)
+  useEffect(() => {
+    function listener(e) {
+      if (!sortRef.current || sortRef.current.contains(e.target)) return
+      setSortDropdown(false)
+    }
+    document.addEventListener("mousedown", listener)
+    document.addEventListener("touchstart", listener)
+    return () => {
+      document.removeEventListener("mousedown", listener)
+      document.removeEventListener("touchstart", listener)
+    }
+  }, [])
+
+
+
+  let brand = filterData.map(item => item.brand)
   brand = [...new Set(brand)]
-  let color = filterData.map((item) => item.color)
+  let color = filterData.map(item => item.color)
   color = [...new Set(color)]
-  let size = filterData.map((item) => item.size)
+  let size = filterData.map(item => item.size)
   size = [...new Set(size)]
 
   return (
@@ -28,7 +43,7 @@ function Product() {
         <div className="flex items-baseline justify-between pb-2 pt-24">
           <h1 className="text-xl font-bold">FILTERS</h1>
           <div className="flex items-center">
-            <div className="relative border px-4 py-2 rounded-sm p-dropdown" onClick={() => setSortDropdown(!sortDropdown)}>
+            <div ref={sortRef} className="relative border px-4 py-2 rounded-sm p-dropdown" onClick={() => setSortDropdown(!sortDropdown)}>
               <button type="button" className="group flex items-center gap-2 text-sm font-medium text-gray-700 hover:text-gray-900" id="menu-button" aria-expanded="false" aria-haspopup="true">
                 Sort: Recommended
                 <FaAngleDown />

@@ -5,11 +5,11 @@ import ImgsSlider from "./ImgsSlider"
 function ProductList({ product }) {
 
   const [productHover, setProductHover] = useState(true)
-  const { brand, description
+  const { id, brand, description
     , discountPercentage, images, price, rating, thumbnail, title, size } = product
 
   return (
-    <>
+    <Link to={`/product/${id}`}>
       <div className="productGroup"
         onMouseEnter={() => setProductHover(false)}
         onMouseLeave={() => setProductHover(true)} >
@@ -46,7 +46,7 @@ function ProductList({ product }) {
           }
         </div>
       </div>
-    </>
+    </Link>
 
   )
 }
