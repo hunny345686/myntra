@@ -71,7 +71,7 @@ html {
 }
 
 .noOfItem {
-  top: 0;
+  top: -12px;
   width: 24px;
   height: 24px;
   background: var(--naviHover);

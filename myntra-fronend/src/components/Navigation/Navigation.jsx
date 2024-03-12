@@ -3,8 +3,11 @@ import Menu from "./Menu";
 import NavigationRight from "./NavigationRight";
 import { FaUser, FaShoppingBag, FaHeart, FaSearch } from "react-icons/fa";
 import { categories } from "../../pages/ProductsComponents/ProductData";
+import { useContext } from "react";
+import { WishlistContext } from "../../ContextAPI/WishlistContext";
 
 function Navigation() {
+  const { wishlist } = useContext(WishlistContext);
   return (
     <div className="shadow-md navigation fixed top-0 left-0 right-0 z-10">
       <nav className="container mx-auto relative">
@@ -35,10 +38,14 @@ function Navigation() {
             <NavigationRight linkTo="singin" name="Profile">
               <FaUser />
             </NavigationRight>
-            <NavigationRight linkTo="wishlist" name="Wishlist">
+            <NavigationRight
+              linkTo="wishlist"
+              name="Wishlist"
+              cartCount={wishlist.length > 0 ? wishlist.length : ""}
+            >
               <FaHeart />
             </NavigationRight>
-            <NavigationRight linkTo="cart" name="Cart" cartCount="1">
+            <NavigationRight linkTo="cart" name="Cart" cartCount={""}>
               <FaShoppingBag />
             </NavigationRight>
           </div>
