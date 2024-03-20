@@ -21,18 +21,21 @@ function ProductList({ product }) {
     size,
   } = product;
 
+  // adding product in Wishlist
   const handleWishList = () => {
     setWishlist([...wishlist, product]);
   };
+  // Check if Allready In WhishList
+  const AllreadyInwishlist = wishlist.map((item) => item.id);
 
   return (
-    <Link to={`/product/${id}`}>
-      <div
-        className="productGroup"
-        onMouseEnter={() => setProductHover(false)}
-        onMouseLeave={() => setProductHover(true)}
-      >
-        <div className="aspect-h-1 aspect-w-1 w-full overflow-hidden rounded-md lg:aspect-none lg:h-80 \">
+    <div
+      className="productGroup"
+      onMouseEnter={() => setProductHover(false)}
+      onMouseLeave={() => setProductHover(true)}
+    >
+      <Link to={`/product/${id}`}>
+        <div className="aspect-h-1 aspect-w-1 w-full overflow-hidden rounded-md lg:aspect-none lg:h-80 ">
           {productHover ? (
             <img
               src={thumbnail}
@@ -51,42 +54,47 @@ function ProductList({ product }) {
             </div>
           )}
         </div>
-        <div className="p-4 pr-0 productDetail shadow-md">
-          {productHover ? (
-            <>
-              <h3 className="uppercase font-bold mb-2">{brand}</h3>
-              <p>{description.substring(0, 40)}...</p>
-              <p>
-                <span className="font-bold">
-                  RS.{price - ((price * discountPercentage) / 100).toFixed(2)}
-                </span>
-                <del className="mx-1">RS.{price}</del>
-                <span className="off">({discountPercentage}% OFF)</span>
-              </p>
-            </>
-          ) : (
-            <>
-              <div className="pruductWishlist bg-white w-full">
-                <Link to={"/wishlist"}>
-                  <button
-                    className="uppercase flex items-center gap-2 justify-center"
-                    onClick={handleWishList}
-                  >
-                    <FaHeart /> wishlist
-                  </button>
-                </Link>
-              </div>
-              <p className="mt-4">Sizes : {size}</p>
-              <p>
-                <span className="font-bold">Rs.869</span>
-                <del className="mx-1">RS.{price}</del>
-                <span className="off">({discountPercentage}% OFF)</span>
-              </p>
-            </>
-          )}
-        </div>
+      </Link>
+
+      <div className="p-4 pr-0 productDetail shadow-md">
+        {productHover ? (
+          <>
+            <h3 className="uppercase font-bold mb-2">{brand}</h3>
+            <p>{description.substring(0, 40)}...</p>
+            <p>
+              <span className="font-bold">
+                RS.{price - ((price * discountPercentage) / 100).toFixed(2)}
+              </span>
+              <del className="mx-1">RS.{price}</del>
+              <span className="off">({discountPercentage}% OFF)</span>
+            </p>
+          </>
+        ) : (
+          <>
+            <div className="pruductWishlist bg-white w-full">
+              {AllreadyInwishlist.includes(id) ? (
+                <button className="uppercase flex items-center gap-2 justify-center font-bold">
+                  <FaHeart className="text-red-500" /> Wishlished
+                </button>
+              ) : (
+                <button
+                  className="uppercase flex items-center gap-2 justify-center font-bold"
+                  onClick={() => handleWishList(id)}
+                >
+                  <FaHeart /> wishlist
+                </button>
+              )}
+            </div>
+            <p className="mt-4">Sizes : {size}</p>
+            <p>
+              <span className="font-bold">Rs.869</span>
+              <del className="mx-1">RS.{price}</del>
+              <span className="off">({discountPercentage}% OFF)</span>
+            </p>
+          </>
+        )}
       </div>
-    </Link>
+    </div>
   );
 }
 
