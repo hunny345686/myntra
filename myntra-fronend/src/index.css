@@ -11,6 +11,7 @@
   --footerText: #696b79;
   --starColor: #72bfbc;
   --DarkText: #282c3f;
+  --btnBgColor: #ff3e6c;
 }
 
 html {
@@ -20,6 +21,12 @@ html {
 /* Navigation Css  */
 .navigation {
   background: var(--white);
+}
+
+.btnColor{
+  background-color: var(--btnBgColor);
+  color: #fff;
+  border-radius: 8px;
 }
 
 .navigationSearch {
